@@ -1,0 +1,170 @@
+body{
+    background-image: url("https://projectmgtcoach.com/wp-content/uploads/2015/03/light-blue-backgrounds-for-websites.jpg");
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background-color:stealgrat;
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+@keyframes example {
+   0%   {background-color: lightOrange;}
+  20%  {background-color: lightyellow;}
+  40%  {background-color: violet;}
+  60% {background-color: lightgreen;}
+  80% {background-color: gray;}
+ 100% {background-color: lightpink;}
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+font-size:30px;
+  text-decoration: underline;
+  background-color: lightgray ;
+  color:darkslateblue;
+  text-align: center;
+  font-family: Lato:
+}
+ul {
+  background:Ghostwhite:
+  padding: 20px;
+}
+ul li {
+   font-size:19px;
+   text-align: center;
+  background: ghostwhite;
+  margin: 5px;
+}
+h4 {
+ font-size:25px;
+  text-decoration: underline;
+  background-color:blue ;
+  color:ghostwhite;
+  text-align: center;
+  font-family: verdana:
+}
+h5 {
+ font-size:25px;
+  text-decoration: underline;
+  background-color:lightblue;
+  color:red;
+  text-align: center;
+  font-family: verdana:
+}
+h6 {
+ font-size:25px;
+  text-decoration: underline;
+  background-color:ghostwhite;
+  color:orange;
+  text-align: center;
+  font-family: verdana:
+}
+dl dd {
+   font-size:18px;
+   text-align: center;
+color:red;
+  background: ghostwhite;
+  margin: 5px;
+}
+ol li {
+    font-size:18px;
+   text-align: center;
+color:orange;
+  background: lightyellow;
+  margin: 5px;
+}
+img {
+  border: 5px solid #555;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+
+
+
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: brown;
+}
+i{
+    color: blue;
+}
+img{
+    display: block;
+}
+
+.img-class{
+    display: block;
+    border-radius:40px;
+
